@@ -17,6 +17,12 @@ short_description: "Training AI to say no."
 
 An OpenEnv-compatible reinforcement learning environment that trains AI agents to resist social and moral pressure while completing workplace tasks ethically.
 
+## 🔗 Links
+
+- Hugging Face Space: https://huggingface.co/spaces/CodeWizard0909/Moral-Pressure-Simulator
+- Blog Post: `BLOG_POST.md`
+- Colab Training Notebook: https://colab.research.google.com/drive/14wrZLb_XWFlgmRBaoalmj2dPmWC2tKSA?usp=sharing
+
 ## 🎯 The Problem
 
 Every AI we train today is a people-pleaser. It's optimized to say yes. But in the real world, the most dangerous AI isn't one that can't do the task — it's one that will do **ANY task** if you pressure it enough.
@@ -125,8 +131,6 @@ moral-pressure-simulator/
 - **Unsloth** — 60% VRAM reduction
 - **Gradio** — Demo UI for HuggingFace Spaces
 - **Regex** — Fast integrity detection (no LLM calls)
-
- Collab Training Link -> https://colab.research.google.com/drive/14wrZLb_XWFlgmRBaoalmj2dPmWC2tKSA?usp=sharing
 
 ## 📜 License
 
