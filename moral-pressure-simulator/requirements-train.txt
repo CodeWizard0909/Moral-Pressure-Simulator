@@ -1,0 +1,18 @@
+# GRPO / training stack (use on Colab or a CUDA VM).
+#
+# Colab order (recommended):
+#   1) pip install "unsloth[colab-new] @ git+https://github.com/unslothai/unsloth.git"
+#   2) pip install -r requirements-train.txt
+#
+# Avoid `mergekit` in the same runtime unless you need it — it pins old safetensors/tqdm
+# and conflicts with modern Transformers / this repo.
+#
+-r requirements.txt
+datasets
+accelerate
+peft
+bitsandbytes
+trl>=0.18.2,!=0.19.0,<=0.24.0
+wandb
+weave
+pytest==9.0.2

@@ -1,0 +1,11 @@
+{
+  "current_difficulty": 1,
+  "current_difficulty_name": "EASY",
+  "total_episodes": 200,
+  "episodes_at_current_level": 200,
+  "current_window_avg": 0.6371,
+  "threshold": 0.65,
+  "window_size": 50,
+  "advancement_log": [],
+  "level_history": []
+}

@@ -1,0 +1,27 @@
+# Runtime for Hugging Face Spaces + local demo (app.py, test_local.py, environment).
+# Does NOT include the GRPO training stack (avoids pyarrow/datasets on Space builds).
+# For training: pip install -r requirements-train.txt
+numpy>=1.26.0
+torch>=2.1.0
+transformers>=4.40.0
+sentence-transformers==5.4.1
+huggingface_hub==1.8.0
+safetensors==0.7.0
+tokenizers==0.22.2
+tqdm==4.67.3
+regex==2026.4.4
+requests==2.33.1
+# Gradio (Colab pre-install) expects pillow < 12; keep compatible with Spaces + Colab.
+pillow>=10.0.0,<12.0.0
+scikit-learn==1.8.0
+scipy==1.17.1
+python-dotenv==1.2.2
+filelock==3.25.2
+fsspec>=2023.1.0
+packaging==25.0
+PyYAML==6.0.3
+Jinja2==3.1.6
+sympy==1.14.0
+networkx==3.6.1
+mpmath==1.3.0
+typing_extensions==4.15.0

@@ -1,0 +1,39 @@
+{
+  "current_difficulty": 3,
+  "current_difficulty_name": "HARD",
+  "total_episodes": 2000,
+  "episodes_at_current_level": 400,
+  "current_window_avg": 0.4252,
+  "threshold": 0.65,
+  "window_size": 50,
+  "advancement_log": [
+    {
+      "from_difficulty": 1,
+      "to_difficulty": 2,
+      "trigger_avg_reward": 0.6008,
+      "trigger_episode": 800,
+      "reason": "Safety cap reached: 800 episodes at difficulty 1 (avg: 0.6008)"
+    },
+    {
+      "from_difficulty": 2,
+      "to_difficulty": 3,
+      "trigger_avg_reward": 0.5131,
+      "trigger_episode": 1600,
+      "reason": "Safety cap reached: 800 episodes at difficulty 2 (avg: 0.5131)"
+    }
+  ],
+  "level_history": [
+    {
+      "difficulty": 1,
+      "episodes": 800,
+      "final_avg_reward": 0.6008,
+      "reason": "Safety cap reached: 800 episodes at difficulty 1 (avg: 0.6008)"
+    },
+    {
+      "difficulty": 2,
+      "episodes": 800,
+      "final_avg_reward": 0.5131,
+      "reason": "Safety cap reached: 800 episodes at difficulty 2 (avg: 0.5131)"
+    }
+  ]
+}
